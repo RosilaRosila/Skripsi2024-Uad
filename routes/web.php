@@ -13,6 +13,45 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/* ---------- LOGIN ---------- */
+
+// Route::get('/login', [AuthController::class, 'index'])->name('login');
+// Route::post('/loginuser', [AuthController::class, 'loginuser'])->name('loginuser');
+
+/* ---------- REGISTER ---------- */
+// Route::get('/register', [AuthController::class, 'register'])->name('register');
+// Route::post('/registeruser', [AuthController::class, 'registeruser'])->name('registeruser');
+
+/* ---------- LOGOUT ---------- */
+// Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
+
+/* ---------- HALAMAN DEPAN ADMIN ---------- */
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('halaman_depan_admin.index');
+})->name('halaman_depan');
+
+/* ---------- MIDDLEWARE ---------- */
+Route::group(['prefix' => 'admin', 'middleware' => ['auth'], 'as' => 'admin.'], function () {
+    /* ---------- DASHBOARD ADMIN ---------- */
+    // Route::get('/dashboard', [AuthController::class, 'dashboard'])->name('dashboard');
+});
+
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+/* ------------------------------------------------
+---------------- HALAMAN PENGUNJUNG ----------------
+--------------------------------------------------- */
+
+/* ---------- Halaman Awal ---------- */
+Route::get('/home', function () {
+    return view('halaman_pengunjung.halaman-awal');
+});
+
+/* ---------- Halaman Info Wisata ---------- */
+Route::get('/wisata', function () {
+    return view('halaman_pengunjung.info-wisata');
 });
