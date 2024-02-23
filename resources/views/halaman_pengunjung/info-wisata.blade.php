@@ -17,7 +17,7 @@
             <ul>
                 <li><a href="http://127.0.0.1:8000/home">Home</a></li>
                 <li class="active"><a href="http://127.0.0.1:8000/wisata">Info Wisata</a></li>
-                <li><a href="{{ route('register') }}">Pesan Tiket</a></li>
+                <li><a href="">Pesan Tiket</a></li>
             </ul>
         </nav>
     </header>
