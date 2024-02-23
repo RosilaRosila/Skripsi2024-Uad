@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* .medsos {
+    padding: 20px 0;
+    background-color: cadetblue;
+} */
+
+/* header .gambarheader {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+} */
+
+.content {
+    height: 20px;
+    background-color: cadetblue;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: cadetblue;
+}
+
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header p {
+    float: left;
+    padding-left: 20px;
+    padding: 20px auto;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    display: inline-block;
+    padding: 30px 25px;
+
+}
+
+header ul li a:hover {
+    background-color: cadetblue;
+    color: cornsilk;
+}
+
+.active {
+    /* background-color: cadetblue; */
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.gambar {
+    height: 300px;
+    background-image: url(pnd2.jpeg);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gambar h2 {
+    color: white;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid white;
+}
+
+.gambar:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(96, 157, 159, .6);
+}
+
+section {
+    padding: 50px 0;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: cadetblue;
+}
+
+.footer p {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
