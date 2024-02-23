@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .medsos {
+    padding: 20px 0;
+    background-color: cadetblue;
+} */
+
+/* header .gambarheader {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+} */
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: cadetblue;
+
+}
+
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header p {
+    float: left;
+    padding-left: 20px;
+    padding: 20px auto;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    display: inline-block;
+    padding: 30px 25px;
+}
+
+header ul li a:hover {
+    background-color: cadetblue;
+    color: cornsilk;
+}
+
+.active {
+    /* background-color: cadetblue; */
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.gambarheader {
+    padding-top: 3vh;
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+.contentisi {
+    width: 100%;
+    height: auto;
+}
+
+.isi {
+    padding-top: 30px;
+    margin: 10px 20px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.isi .judulisi {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.isi .deskripsi {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.deskripsi ul li {
+    list-style-type: none;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: cadetblue;
+}
+
+.footer p {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
