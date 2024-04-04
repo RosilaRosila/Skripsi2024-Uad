@@ -41,11 +41,13 @@
                 <p>Pantai Batuhiu</p>
             </a>
         </div>
-        <!-- BARIS KE - DUA -->
+    </div>
+    <!-- BARIS KE - DUA -->
+    <div class="content1">
         <div class="wstpbtk">
             <a href="">
                 <img src="{{ asset('/') }}assets/img/ptbtk.jpg" />
-                <p>Wisata Pantai Batukaras</p>
+                <p>Pantai Batukaras</p>
             </a>
         </div>
         <div class="wstgc">
@@ -60,7 +62,9 @@
                 <p>Body Rafting Citumang</p>
             </a>
         </div>
-        <!-- BARIS KE - TIGA -->
+    </div>
+    <!-- BARIS KE - TIGA -->
+    <div class="content2">
         <div class="tmca">
             <a href="">
                 <img src="{{ asset('/') }}assets/img/cagaralam.jpg" />
@@ -80,6 +84,7 @@
             </a>
         </div>
     </div>
+
     <br>
     <br>
 
