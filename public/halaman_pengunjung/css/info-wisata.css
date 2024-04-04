@@ -74,13 +74,12 @@ header ul li a:hover {
 }
 
 .content {
-    width: 90%;
+    width: 200vh;
     height: auto;
     display: grid;
     margin: 0 auto;
-    padding-top: 2vh;
+    padding-top: 5vh;
     grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(4, auto);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -90,9 +89,10 @@ a:hover {
 
 /* WISATA PANTAI PANGANDARAN */
 .content .wstpnd {
-    width: 85%;
+    /* width: 85%; */
     padding: 3em 1em;
     margin: 0 auto;
+    box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.3);
 }
 
 .content .wstpnd img {
@@ -104,15 +104,16 @@ a:hover {
     margin-top: 3vh;
     text-align: center;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
 /* WISATA PANTAI KARAPYAK */
 .content .wstpk {
-    width: 85%;
+    /* width: 85%; */
     padding: 3em 1em;
     margin: 0 auto;
+    box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.3);
 }
 
 .content .wstpk img {
@@ -124,15 +125,16 @@ a:hover {
     margin-top: 3vh;
     text-align: center;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
 /* WISATA PANTAI BATUHIU */
 .content .wstpb {
-    width: 85%;
+    /* width: 85%; */
     padding: 3em 1em;
     margin: 0 auto;
+    box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.3);
 }
 
 .content .wstpb img {
@@ -144,126 +146,152 @@ a:hover {
     margin-top: 3vh;
     text-align: center;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
 }
 
+/* ------------- BARIS KE DUA -------------------- */
+.content1 {
+    width: 200vh;
+    height: auto;
+    display: grid;
+    margin: 0 auto;
+    padding-top: 10vh;
+    grid-template-columns: repeat(3, auto);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 /* WISATA PANTAI BATUKARAS */
-.content .wstpbtk {
-    width: 85%;
+.content1 .wstpbtk {
+    /* width: 85%; */
     padding: 3em 1em;
     margin: 0 auto;
+    box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.3);
 }
 
-.content .wstpbtk img {
+.content1 .wstpbtk img {
     height: 30vh;
     justify-self: center;
 }
 
-.content .wstpbtk p {
+.content1 .wstpbtk p {
     margin-top: 3vh;
     text-align: center;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
 /* CUKANG TANEUH / GREEN CANYON */
-.content .wstgc {
-    width: 85%;
+.content1 .wstgc {
+    /* width: 85%; */
     padding: 3em 1em;
     margin: 0 auto;
+    box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.3);
 }
 
-.content .wstgc img {
+.content1 .wstgc img {
     height: 30vh;
     justify-self: center;
 }
 
-.content .wstgc p {
+.content1 .wstgc p {
     margin-top: 3vh;
     text-align: center;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* BODY RAFTING CITUMANG */
-.content .wstbrc {
-    width: 85%;
+.content1 .wstbrc {
+    /* width: 85%; */
     padding: 3em 1em;
     margin: 0 auto;
+    box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.3);
 }
 
-.content .wstbrc img {
+.content1 .wstbrc img {
     height: 30vh;
     justify-self: center;
 }
 
-.content .wstbrc p {
+.content1 .wstbrc p {
     margin-top: 3vh;
     text-align: center;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
 }
 
+/* -------------------- BARIS KE TIGA ------------------------*/
+.content2 {
+    width: 200vh;
+    height: auto;
+    display: grid;
+    margin: 0 auto;
+    padding-top: 10vh;
+    grid-template-columns: repeat(3, auto);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 /* TAMAN WISATA ALAM PANGANDARAN (CAGAR ALAM) */
-.content .tmca {
-    width: 85%;
+.content2 .tmca {
+    /* width: 85%; */
     padding: 3em 1em;
     margin: 0 auto;
+    box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.3);
 }
 
-.content .tmca img {
+.content2 .tmca img {
     height: 30vh;
     justify-self: center;
 }
 
-.content .tmca p {
+.content2 .tmca p {
     margin-top: 3vh;
     text-align: center;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
 /* PANTAI KARANGNINI */
-.content .ptkrn {
-    width: 85%;
+.content2 .ptkrn {
+    /* width: 85%; */
     padding: 3em 1em;
     margin: 0 auto;
+    box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.3);
 }
 
-.content .ptkrn img {
+.content2 .ptkrn img {
     height: 30vh;
     justify-self: center;
 }
 
-.content .ptkrn p {
+.content2 .ptkrn p {
     margin-top: 3vh;
     text-align: center;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
 /* CURUG BOJONG */
-.content .crgbj {
-    width: 85%;
+.content2 .crgbj {
+    /* width: 85%; */
     padding: 3em 1em;
     margin: 0 auto;
+    box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.3);
 }
 
-.content .crgbj img {
+.content2 .crgbj img {
     height: 30vh;
     justify-self: center;
 }
 
-.content .crgbj p {
+.content2 .crgbj p {
     margin-top: 3vh;
     text-align: center;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* FOOTER */
