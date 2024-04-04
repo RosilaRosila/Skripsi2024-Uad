@@ -73,18 +73,200 @@ header ul li a:hover {
     font-size: 18px;
 }
 
-.contentisi {
-    width: 100%;
+.content {
+    width: 90%;
     height: auto;
+    display: grid;
+    margin: 0 auto;
+    padding-top: 2vh;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.isi {
-    padding-top: 30px;
-    margin: 10px 20px;
-    width: 95%;
+a:hover {
+    color: cadetblue;
+}
+
+/* WISATA PANTAI PANGANDARAN */
+.content .wstpnd {
+    width: 85%;
+    padding: 3em 1em;
     margin: 0 auto;
 }
 
+.content .wstpnd img {
+    height: 30vh;
+    justify-self: center;
+}
+
+.content .wstpnd p {
+    margin-top: 3vh;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* WISATA PANTAI KARAPYAK */
+.content .wstpk {
+    width: 85%;
+    padding: 3em 1em;
+    margin: 0 auto;
+}
+
+.content .wstpk img {
+    height: 30vh;
+    justify-self: center;
+}
+
+.content .wstpk p {
+    margin-top: 3vh;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* WISATA PANTAI BATUHIU */
+.content .wstpb {
+    width: 85%;
+    padding: 3em 1em;
+    margin: 0 auto;
+}
+
+.content .wstpb img {
+    height: 30vh;
+    justify-self: center;
+}
+
+.content .wstpb p {
+    margin-top: 3vh;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* WISATA PANTAI BATUKARAS */
+.content .wstpbtk {
+    width: 85%;
+    padding: 3em 1em;
+    margin: 0 auto;
+}
+
+.content .wstpbtk img {
+    height: 30vh;
+    justify-self: center;
+}
+
+.content .wstpbtk p {
+    margin-top: 3vh;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* CUKANG TANEUH / GREEN CANYON */
+.content .wstgc {
+    width: 85%;
+    padding: 3em 1em;
+    margin: 0 auto;
+}
+
+.content .wstgc img {
+    height: 30vh;
+    justify-self: center;
+}
+
+.content .wstgc p {
+    margin-top: 3vh;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* BODY RAFTING CITUMANG */
+.content .wstbrc {
+    width: 85%;
+    padding: 3em 1em;
+    margin: 0 auto;
+}
+
+.content .wstbrc img {
+    height: 30vh;
+    justify-self: center;
+}
+
+.content .wstbrc p {
+    margin-top: 3vh;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* TAMAN WISATA ALAM PANGANDARAN (CAGAR ALAM) */
+.content .tmca {
+    width: 85%;
+    padding: 3em 1em;
+    margin: 0 auto;
+}
+
+.content .tmca img {
+    height: 30vh;
+    justify-self: center;
+}
+
+.content .tmca p {
+    margin-top: 3vh;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* PANTAI KARANGNINI */
+.content .ptkrn {
+    width: 85%;
+    padding: 3em 1em;
+    margin: 0 auto;
+}
+
+.content .ptkrn img {
+    height: 30vh;
+    justify-self: center;
+}
+
+.content .ptkrn p {
+    margin-top: 3vh;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* CURUG BOJONG */
+.content .crgbj {
+    width: 85%;
+    padding: 3em 1em;
+    margin: 0 auto;
+}
+
+.content .crgbj img {
+    height: 30vh;
+    justify-self: center;
+}
+
+.content .crgbj p {
+    margin-top: 3vh;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* FOOTER */
 .footer {
     padding: 20px 0;
     background-color: cadetblue;
