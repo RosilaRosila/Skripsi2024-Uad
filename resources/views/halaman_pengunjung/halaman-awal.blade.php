@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('/') }}halaman_pengunjung/css/halaman-awal.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="shortcut icon" href="{{ asset('/') }}assets/img/logokp.png" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 </head>
 
 <body>
@@ -24,10 +25,32 @@
 
     <div class="contentisi">
         <div class="gambarheader">
-            <img src="{{ asset('/') }}assets/img/gambar-cover.jpg" />
+            <img src="{{ asset('/') }}assets/img/profil-cover.png" />
+            <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="{{ asset('/') }}assets/img/profil-cover.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="{{ asset('/') }}assets/img/profil-cover.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="{{ asset('/') }}assets/img/profil-cover.png" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div> -->
         </div>
+        <div class="garis-vertical"></div>
         <div class="isi">
-            <p class="judulisi">Kabupaten Pangandaran</p>
+            <p class="judulisi"><u style="color:rgb(111, 142, 143);">Kabupaten Pangandaran</u></p>
             <hr>
             <p class="deskripsi">Kabupaten pangandaran merupakan sebuah wilayah kabupaten yang terletak di Provinsi Jawa Barat, Indonesia.
                 Ibu kotanya adalah Kecamatan Parigi. Kabupaten Pangandaran memiliki luas wilayah sekira 1.011,04 km.
@@ -38,7 +61,7 @@
             </p>
             <br>
             <br>
-            <p class="judulisi">Pembentukan Kabupaten Pangandaran</p>
+            <p class="judulisi"><u style="color:rgb(111, 142, 143);">Pembentukan Kabupaten Pangandaran</u></p>
             <hr>
             <p class="deskripsi">
                 Pangandaran resmi menjadi kabupaten setelah pengukuhan Undang-Undang Republik Indonesia Nomor 21 Tahun 2012 dan
@@ -47,7 +70,7 @@
             </p>
             <br>
             <br>
-            <p class="judulisi">Pariwisata Kabupaten Pangandaran</p>
+            <p class="judulisi"><u style="color:rgb(111, 142, 143);">Pariwisata Kabupaten Pangandaran</u></p>
             <hr>
             <p class="deskripsi">
                 Pariwisata merupakan salah satu sektor yang cukup esensial bagi Kabupaten Pangandaran. Objek wisata yang terdapat di Kabupaten Pangandaran antara lain adalah:
@@ -69,7 +92,7 @@
             </p>
             <br>
             <br>
-            <p class="judulisi">Transportasi ke Kabupaten Pangandaran</p>
+            <p class="judulisi"><u style="color:rgb(111, 142, 143);">Transportasi ke Kabupaten Pangandaran</u></p>
             <hr>
             <p class="deskripsi">
             <p style="font-size: 16px; font-weight:bold">Angkutan Umum</p>

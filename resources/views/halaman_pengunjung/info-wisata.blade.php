@@ -22,11 +22,63 @@
         </nav>
     </header>
 
-    <div class="contentisi">
-        <div class="isi">
-
+    <div class="content">
+        <div class="wstpnd">
+            <a href="">
+                <img src="{{ asset('/') }}assets/img/ptpnd.jpg" />
+                <p>Pantai Pangandaran</p>
+            </a>
         </div>
-
+        <div class="wstpk">
+            <a href="">
+                <img src="{{ asset('/') }}assets/img/ptkrp.jpg" />
+                <p>Pantai Karapyak</p>
+            </a>
+        </div>
+        <div class="wstpb">
+            <a href="">
+                <img src="{{ asset('/') }}assets/img/ptbth.jpg" />
+                <p>Pantai Batuhiu</p>
+            </a>
+        </div>
+        <!-- BARIS KE - DUA -->
+        <div class="wstpbtk">
+            <a href="">
+                <img src="{{ asset('/') }}assets/img/ptbtk.jpg" />
+                <p>Wisata Pantai Batukaras</p>
+            </a>
+        </div>
+        <div class="wstgc">
+            <a href="">
+                <img src="{{ asset('/') }}assets/img/grcanyon.jpg" />
+                <p>Cukang Taneuh/Green Canyon</p>
+            </a>
+        </div>
+        <div class="wstbrc">
+            <a href="">
+                <img src="{{ asset('/') }}assets/img/bdctm.jpg" />
+                <p>Body Rafting Citumang</p>
+            </a>
+        </div>
+        <!-- BARIS KE - TIGA -->
+        <div class="tmca">
+            <a href="">
+                <img src="{{ asset('/') }}assets/img/cagaralam.jpg" />
+                <p>Taman Wisata Alam Pangandaran (Cagar Alam)</p>
+            </a>
+        </div>
+        <div class="ptkrn">
+            <a href="">
+                <img src="{{ asset('/') }}assets/img/ptkrn.jpg" />
+                <p>Pantai Karangnini</p>
+            </a>
+        </div>
+        <div class="crgbj">
+            <a href="">
+                <img src="{{ asset('/') }}assets/img/crbj.jpg" />
+                <p>Curug Bojong</p>
+            </a>
+        </div>
     </div>
     <br>
     <br>
