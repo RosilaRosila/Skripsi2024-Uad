@@ -47,11 +47,16 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth'], 'as' => 'admin.'], 
 --------------------------------------------------- */
 
 /* ---------- Halaman Awal ---------- */
-Route::get('/home', function () {
+Route::get('/Home', function () {
     return view('halaman_pengunjung.halaman-awal');
 });
 
 /* ---------- Halaman Info Wisata ---------- */
-Route::get('/wisata', function () {
+Route::get('/Info-Wisata', function () {
     return view('halaman_pengunjung.info-wisata');
+});
+
+/* ---------- Info Wisata Pantai Pangandaran ---------- */
+Route::get('/Pantai-Pangandaran', function () {
+    return view('halaman_pengunjung.pantai-pangandaran');
 });
