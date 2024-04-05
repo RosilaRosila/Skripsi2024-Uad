@@ -15,8 +15,8 @@
         <nav class="container">
             <p><img src="{{ asset('/') }}assets/img/logokp.png" style="float:left; width:60px" />Wisata Kabupaten Pangandaran</p>
             <ul>
-                <li><a href="http://127.0.0.1:8000/home">Home</a></li>
-                <li class="active"><a href="http://127.0.0.1:8000/wisata">Info Wisata</a></li>
+                <li><a href="http://127.0.0.1:8000/Home">Home</a></li>
+                <li class="active"><a href="http://127.0.0.1:8000/Info-Wisata">Info Wisata</a></li>
                 <li><a href="">Pesan Tiket</a></li>
             </ul>
         </nav>
@@ -24,8 +24,8 @@
 
     <div class="content">
         <div class="wstpnd">
-            <a href="">
-                <img src="{{ asset('/') }}assets/img/ptpnd.jpg" />
+            <a href="http://127.0.0.1:8000/Pantai-Pangandaran">
+                <img src="{{ asset('/') }}assets/img/ptnpnd.jpg" />
                 <p>Pantai Pangandaran</p>
             </a>
         </div>
@@ -37,7 +37,7 @@
         </div>
         <div class="wstpb">
             <a href="">
-                <img src="{{ asset('/') }}assets/img/ptbth.jpg" />
+                <img src="{{ asset('/') }}assets/img/ptnbth.jpg" />
                 <p>Pantai Batuhiu</p>
             </a>
         </div>
